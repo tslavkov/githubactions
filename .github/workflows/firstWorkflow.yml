@@ -7,7 +7,7 @@ jobs:
   firstjob:
     runs-on: self-hosted
     steps:
-      - firstjob: script
-        schell: sh
+      - name: firstjob script
+        shell: bash
         run: Hello World!
       
