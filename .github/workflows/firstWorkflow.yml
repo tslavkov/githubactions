@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: firstjob script
         shell: bash
-        run: Hello World!
+        run: echo Hello World!
       - name: checkout
         uses: actions/checkout@v3
       - name: greetings
