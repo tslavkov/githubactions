@@ -5,9 +5,9 @@ on:
   
 jobs:
   firstjob:
-    runs-on:self-hosted
+    runs-on: self-hosted
     steps:
-      - firstjob script
-      schell: sh
-      run: Hello World!
+      - firstjob: script
+        schell: sh
+        run: Hello World!
       
