@@ -11,10 +11,10 @@ jobs:
         shell: bash
         run: Hello World!
       - name: checkout
-        uses: actions/checkout@v3
+        uses: action/checkout@v3
       - name: greetings
         id: greetings
-        uses: actions/hello-world-javascript-action@main
+        uses: action/hello-world-javascript-action@main
         with:
           who-to-greet: 'Mona the Octocat'
       - name: time
